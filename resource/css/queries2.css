@@ -1,0 +1,319 @@
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+    .chat-box{
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }
+    .chat-btn{
+        position: fixed;
+        display: block;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+
+
+    .logo {
+        width: 200px;
+    }
+
+    .main-nav li {
+        width: 60px;
+        float: none;
+    }
+    h2 {
+        margin-top: -30px;
+    }
+
+    .decription-menu {
+        font-size: 16px;
+    }
+
+    .side-menu {
+        margin-left: -25px;
+    }
+
+    .tm-product {
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    .tm-product-price {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        
+    }
+
+    .tm-product img {
+        width: 120px;
+    }
+
+    .tm-product-price-link {
+        border: 2px solid rgb(174, 174, 174);
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tm-product-price a {
+        font-size: 12px;
+    }
+
+    .tm-product-description {
+        font-size: 14px;
+    }
+    .tm-product-text {
+        max-width: 230px;
+    }
+    .footer-nav{
+        margin-left: -20px;
+    }
+    .footer-heading{
+        font-size: 20px;
+    }
+    .footer-descriptions{
+        font-size: 12px;
+    }
+    .footer-text{
+        font-size: 10px;
+    }
+
+}
+@media only screen and (max-width:767px) {
+
+
+    .logo{
+        width: 160px;
+        margin-left: -10px;
+    }
+    .col{
+        width: 100%;
+    }
+    .main-nav li{
+        width: 40px;     
+    }
+    .heading-main-nav span{
+        font-size: 10px;
+    }
+    .header-line img{
+        width: 30px;
+    }
+    .heading-main-nav h1 span.header-line {
+        font-size: 80px;
+    }
+    .header-description{
+        font-size: 12px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav li a {
+        padding-left: 10px;
+    }
+    .mobile-nav-icon {
+        display: block;
+        cursor: pointer;
+        color: #c79c60;
+        font-size: 28px;
+        position: fixed;
+        top: 40px;
+        right: 15px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 6px 15px;
+        z-index: 1000;
+    }
+    .main-nav {
+        height: auto;
+        position: fixed;
+        z-index: 1000;
+        top: 40px;
+        right: -35px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .main-nav li a {
+        display: block;
+        font-size: 18px;
+    }
+    .circle-image{
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+    .side-menu{
+        margin-left: 25%;
+    }
+    .tm-product{
+        margin-left: 10px;
+    }
+    .tm-product-price {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(97, 86, 86);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: relative;
+    }
+    .tm-product-price-link {
+        border: 2px solid rgb(174,174,174);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        -webkit-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+        text-align: center;
+        padding-top: 7px;
+        font-size: 40px;
+        color: rgb(174,174,174);
+      }
+    .tm-product-price a{
+        font-size: 17px;
+    }
+    .tm-product-text {
+        max-width: 150px;
+    }
+    .footer-heading{
+        margin-left: 2%;
+    }
+    .footer-text li{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .footer-heading{
+        font-size: 25px;
+    }
+    .footer-nav{
+        margin-left: -10px;
+    }
+    .chat-box{
+        width: 32%;
+        height: 320px;
+    }
+    .faq-item{
+        font-size: 8px;
+        margin-left: -10px;
+    }
+    .cauhoi{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .footer-nav{
+        margin-left: -20px;
+    }
+    .client{
+        width: 150px;
+    }
+    .client-info{
+        font-size: 14px;
+    }
+    .chat-btn{
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }   
+
+
+
+}
+@media only screen and (max-width:480px) {
+    .logo{
+        width: 70%;
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+    .heading-main-nav h1 span.header-line {
+        font-size: 40px;
+    }
+    .chat-box{
+        width: 80%;
+    }
+    .faq-item{
+        font-size: 12px;
+    }
+    .cauhoi{
+        font-size: 22px;
+        margin-top: -8px;
+    }
+    .client{
+        width: 220px;
+    }
+    .client-info{
+        display: flex;
+        width: 250px;
+        justify-content: start;
+        align-items: center;
+        height: 300px;
+        background-color: #ffffff;
+    }
+
+    h6 {
+        margin-left: 25%;
+    }
+    .decription-menu{
+        font-size: 12px;
+        text-align: center;
+    }
+    .btn{
+        margin-left: 20%;
+    }
+    .circle-image{
+        margin-left: 20%;
+        margin-top: 30px;
+
+    }
+    .side-menu{
+        margin-left: 4%;
+        margin-bottom: 30px;
+    }
+    .chat-box{
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }
+    .chat-btn{
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }
+    .tm-product {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tm-product img,
+    .tm-product .tm-product-text{
+        width: 100%;
+    }
+    .tm-product .tm-product-price {
+        width: 45%;
+    }
+    
+    .tm-product-title{
+        text-align: center;
+       
+    }
+    .tm-product-description{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .tm-product-price {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        position: relative;
+    }
+
+}

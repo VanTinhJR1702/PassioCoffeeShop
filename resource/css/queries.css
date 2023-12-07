@@ -1,0 +1,451 @@
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+    .chat-btn{
+        position: fixed;
+        display: block;
+        z-index: 2;
+    }
+    .chat-box{
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .logo {
+        width: 200px;
+    }
+
+    .main-nav li {
+        width: 60px;
+    }
+
+    .main-nav li a {
+        font-size: 20px;
+    }
+
+    h2 {
+        margin-top: -30px;
+    }
+
+    .p-long {
+        font-size: 15px;
+        margin-bottom: -50px;
+    }
+
+    .picture-title {
+        margin-left: 10px;
+    }
+
+    .order-now {
+        margin-left: 80px;
+        margin-top: 30px;
+
+    }
+
+    .decription {
+        font-size: 15px;
+    }
+
+    .today-special-large a {
+        font-size: 20px;
+    }
+
+    .grid-item a {
+        font-size: 10px;
+    }
+
+    .grid-container {
+        width: 96%;
+    }
+
+    .pc-title a {
+        margin-left: 12px;
+    }
+
+    .footer-heading {
+        font-size: 20px;
+    }
+
+    .footer-descriptions {
+        font-size: 12px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+
+    .chat-box {
+        width: 32%;
+    }
+
+    .faq-item {
+        font-size: 10px;
+    }
+
+    .cauhoi {
+        font-size: 20px;
+        margin-top: -8px;
+    }
+
+    .footer-nav {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .logo {
+        width: 160px;
+        margin-left: -10px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav li a {
+        padding-left: 10px;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+        cursor: pointer;
+        color: #c79c60;
+        font-size: 28px;
+        position: fixed;
+        top: 40px;
+        right: 15px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 6px 15px;
+        z-index: 1000;
+    }
+    .main-nav {
+        height: auto;
+        position: fixed;
+        z-index: 1000;
+        top: 40px;
+        right: -35px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .about-picture {
+        text-align: center;
+    }
+
+    .about-picture img {
+        width: 50%;
+    }
+
+    .heading-main-nav span {
+        font-size: 10px;
+    }
+
+    .header-line img {
+        width: 30px;
+    }
+
+    .heading-main-nav h1 span.header-line {
+        font-size: 80px;
+    }
+
+    .header-description {
+        font-size: 12px;
+    }
+
+    .p-long {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        margin-top: -40px;
+        font-size: 25px;
+    }
+
+    h2:after {
+        content: "  ";
+        display: block;
+        width: 80px;
+        height: 3px;
+        background-color: #604848;
+        margin: 0 auto;
+        margin-top: 6px;
+    }
+
+    .picture-title {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .best-seller1 {
+
+        height: 420px;
+        width: 90%;
+    }
+
+    .best-seller1 img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .best-seller2 {
+        height: 420px;
+        width: 90%;
+    }
+
+    .best-seller2 img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .best-seller3 {
+        height: 420px;
+        width: 90%;
+    }
+
+    .best-seller3 img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .decription {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 20px;
+        margin-top: -30px;
+        margin-left: 10%;
+    }
+
+    .order-now {
+        margin-left: 43%;
+    }
+
+    .today-special-large img {
+        width: 100%;
+
+        margin: 0 auto;
+        /* Căn giữa hình ảnh */
+        /* margin-left: 20px; */
+    }
+
+    .grid-container {
+        width: 100%;
+        /* Thay đổi kích thước theo chiều rộng của màn hình */
+        max-width: 100%;
+        /* Giới hạn kích thước tối đa */
+        margin: 0 auto;
+    }
+
+    .today-special-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pc-title1 a {
+        font-size: 16px;
+    }
+
+    .pc-title a {
+        font-size: 10px;
+
+    }
+
+    .footer-heading {
+        margin-left: 2%;
+    }
+
+    .footer-text li {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-heading {
+        font-size: 25px;
+    }
+
+    .footer-nav {
+        margin-left: -10px;
+    }
+
+    .chat-box {
+        width: 32%;
+        height: 320px;
+    }
+
+    .faq-item {
+        font-size: 8px;
+        margin-left: -10px;
+    }
+
+    .cauhoi {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .footer-nav {
+        margin-left: -20px;
+    }
+
+    .client {
+        width: 150px;
+    }
+
+    .client-info {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 70%;
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+
+    .heading-main-nav h1 span.header-line {
+        font-size: 50px;
+    }
+
+    .chat-box {
+        width: 80%;
+    }
+
+    .faq-item {
+        font-size: 12px;
+    }
+
+    .cauhoi {
+        font-size: 22px;
+        margin-top: -8px;
+    }
+
+    .client {
+        width: 220px;
+    }
+
+    .client-info {
+        display: flex;
+        width: 250px;
+        justify-content: start;
+        align-items: center;
+        height: 300px;
+        background-color: #ffffff;
+    }
+
+    .p-long {
+        font-size: 12px;
+    }
+
+    .picture-title {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .about-picture img {
+        width: 90%;
+    }
+
+    .best-seller {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .best-seller img {
+        width: 80%;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+    }
+
+    .best-seller h5 {
+        font-size: 24px;
+    }
+
+    .best-seller .decription {
+        font-size: 16px;
+    }
+
+    .best-seller .order-now {
+        margin-left: 35%;
+    }
+
+    .best-seller-bg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order-now-ps {
+        margin-left: 5px;
+    }
+
+    .pc-title1 {
+        margin-left: 16px;
+        padding-bottom: 45px;
+    }
+
+    .pc-title a {
+        font-size: 15px;
+        margin-left: 30%;
+
+    }
+
+    .pc-title {
+        width: 200px;
+    }
+
+    .pc-title2 {
+        width: 200px;
+        padding-bottom: 17px;
+        margin-left: 12px;
+    }
+
+    .pc-title2 a {
+        margin-left: 30%;
+        font-size: 14px;
+        padding-bottom: 20px;
+
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Chỉ có một cột */
+    }
+
+    .grid-item:nth-child(3),
+    .grid-item:nth-child(4) {
+        grid-column: auto;
+        /* Loại bỏ span 2 để các hình nằm trong cùng một cột */
+    }
+
+    .today-special-large img {
+        width: 120%;
+    }
+
+    .today-special-mini img {
+        width: 120%;
+    }
+    .today-special-large{
+        padding-bottom: 20px;
+    }
+
+}
